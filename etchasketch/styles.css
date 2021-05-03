@@ -1,0 +1,28 @@
+html, body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#mainTitle{
+    color: #6d01d3;
+    text-align: center;
+}
+
+.resetButton{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #6d01d3;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #6d01d3 inset, 0 0 0 0 #6d01d3;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    outline: none;
+}
+.resetButton:hover {
+    box-shadow: 0 0 10px 0 #6d01d3 inset, 0 0 10px 4px #6d01d3;
+    color: black;
+}
