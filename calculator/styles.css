@@ -1,0 +1,84 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgb(88, 219, 252), rgb(211, 138, 245));
+}
+
+#mainGrid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+#mainGrid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+#mainGrid > button:hover{
+    background-color: rgba(255, 255, 255, .90);
+}
+
+.double{
+    grid-column: span 2;
+}
+
+.mainDisplay{
+    grid-column: 1/ -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-wrap: break-all;
+}
+
+.mainDisplay .previousCalc{
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.3rem;
+}
+
+.mainDisplay .currentCalc{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.operator{
+    background-color: #6a5acd !important;
+    color: white;
+}
+.operator:hover{
+    background-color: rgba(255, 255, 255, .90) !important;
+    color: black;
+}
+
+.deleteBtn{
+    background-color: rgba(106, 91, 205, 0.35) !important;
+}
+.deleteBtn:hover{
+    background-color: rgba(255, 255, 255, .90) !important;
+    color: black;
+}
+
+.clearBtn{
+    background-color: rgb(255, 135, 66) !important;
+}
+
+.clearBtn:hover{
+    background-color: rgba(255, 255, 255, .90) !important;
+    color: black;
+}
