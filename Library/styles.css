@@ -1,0 +1,196 @@
+body {
+  background-color: #4A096E;
+}
+
+h1 {
+  color: #00B2D6;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+h2 {
+  color: #00B2D6;
+  font-family: 'Dosis', sans-serif;
+}
+
+.buttonDiv{
+  text-align: center;
+}
+
+.addBtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #00B2D6;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.addBtn:hover {
+  background-color: #4A8A0E;
+}
+
+.bookAddDiv {
+  margin: auto;
+  width: 700px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  visibility: collapse;
+  margin-bottom: 20px;
+}
+
+.titleDiv {
+  margin-left: 30px;
+  padding-top: 2px;
+}
+
+.inputField {
+  width: 270px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 8px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+.authorDiv {
+  margin-left: 30px;
+  padding-top: 2px;
+}
+
+.pagesDiv {
+  margin-left: 30px;
+  padding-top: 2px;
+}
+
+.readDiv {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  margin-top: -230px;
+}
+
+.readBtn {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+#finishedBtn {
+  margin-bottom: 40px;
+  background-color: green;
+  color: white;
+}
+
+#finishedBtn:hover {
+  border: 2px solid black;
+}
+
+#notFinishedBtn{
+  background-color: red;
+  color:white;
+  margin-bottom: 40px;
+}
+
+#notFinishedBtn:hover {
+  border: 2px solid black;
+}
+
+#confirmBtn{
+  background-color: #68D602;
+  color:white;
+}
+
+#confirmBtn:hover {
+  border: 2px solid black;
+}
+
+#bookAdded{
+  color: #00B2D6;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 20px;
+  visibility: hidden;
+}
+
+#book1{
+  margin-bottom: 30px;
+}
+
+.bookCard {
+  width: 250px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  visibility: visible;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+.booksDisplay{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttonClass{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+}
+
+#alreadyRead{
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 0px black;
+  background-color: #68D602;
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+#alreadyRead:hover{
+  color: white;
+}
+
+#notRead{
+  height: 30px;
+  border-radius: 15px;
+  border: 0px black;
+  border-radius: 15px;
+  border: 0px black;
+  background-color: red;
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+#notRead:hover{
+  color: white;
+}
